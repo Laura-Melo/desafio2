@@ -27,7 +27,7 @@ const set = () => {
   if (nome !== '' && peso !== '' && distancia !== '') {
     resultado.textContent = `Olá ${nome}! Você percorreu ${distancia} km em ${hora}h, ${arrayTime[1]} min e ${arrayTime[2]}s. Isso quer dizer que a sua velocidade média foi de ${velocidademedia} km/h, o que o corresponde a um pace de ${pace}min/km. Com ${peso}kg, você gastou cerca de ${caloria} calorias”`;
   } else {
-    alert('Para ter os resultados, preencha todos os campos.');
+    alert('Preencha todos os campos.');
   }
 }
 
